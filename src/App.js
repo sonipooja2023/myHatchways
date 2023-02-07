@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
+import axios from 'axios';
+//import CircularProgress from '@mui/material/CircularProgress';
+import React,  { useState, useEffect } from 'react' ;
+// { sliderClasses } from '@mui/material';
+import TableUpdate from './TableUpdate';
+import Hatchways from './Hatchways/Hatchways';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+  return (
+<Hatchways />
+  )
+
+// return(
+//   <TableUpdate />
+// )
+ }
 export default App;
+ 
